@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.head img{
+    display: flex;
+    justify-content: center;
+}
+.head h2{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.body{
+    display: inline;
+    justify-content: space-around;
+    margin-top: 3%;
+    
+}
+.body h4{
+    margin-left: 7%;
+}
+.body p{
+    margin-left: 10%;
+    padding-right: 10%;
+}
