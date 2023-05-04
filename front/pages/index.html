@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Document</title>
+</head>
+<body onload="load()">
+    <main>
+        
+            <div>
+                <div id="outraLifeBar" class="otherLife lifeBar">
+                    <span class="pokeInfos">
+                        <p class="otherPokeName">Nome</p>
+                        <p class="otherPokeLv">Lv.</p>
+                    </span>
+                    <div class="life">
+                        <p>HP</p><progress id="otherHealth" class="health" value="" max=""></progress>
+                    </div>
+                </div>
+                <div id="outroMon">
+                    <img id="outraSprite" src="">
+                </div>
+            </div>
+        
+        
+            <div id="seuMon">
+                <img id="suaSprite" src="">
+            </div>
+            <div id="suaLifeBar" class="yourLife lifeBar">
+                <span class="pokeInfos">
+                    <p class="yourPokeName">Nome</p>
+                    <p class="yourPokeLv">Lv.</p>
+                </span>
+                <div class="life">
+                    <p>HP</p><progress id="yourHealth" class="health" value="" max=""></progress>
+                </div>
+                <progress id="xp" value="50" max="100"></progress>
+            </div>
+        
+    </main>
+
+    <footer>
+        <div>
+            <div class="displayer">
+                <div class="moves inv">
+                    <button type='button' class="TopLeft">a</button>
+                    <button type='button' class="TopRight">a</button>
+                    <button type='button' class="BottomLeft">a</button>
+                    <button type='button' class="BottomRight">a</button</>
+                </div>
+                <div class="log-text">
+                    Voce encontrou
+                </div>
+            </div>
+            <div class="options">
+                <button type="button" class="op fight" onclick="toggleFight()">FIGHT</button>
+                <button type="button" class="op bag">BAG</button>
+                <button type="button" class="op pokes">POKEMONS</button>
+                <button type="button" class="op run">RUN</button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../scripts/index.js"></script>
+<script src="../scripts/party.js"></script>
+<script src="../scripts/enemy.js"></script>
+</html>
