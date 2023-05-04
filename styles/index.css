@@ -18,7 +18,7 @@ main{
     width: 80vw;
     height: 80vh;
     /* background-color: #fff; */
-    background-image: url('../../assets/background.jpg');
+    background-image: url('../assets/background.jpg');
     background-repeat: no-repeat;
     background-position-x: 40%;
     background-size: cover;
